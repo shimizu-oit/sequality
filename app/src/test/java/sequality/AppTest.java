@@ -16,6 +16,8 @@ public class AppTest {
   @Test
   public void testAppReternHelloWorld() {
     App classUnderTest = new App();
-    assertEquals("Hello World!", classUnderTest.getGreeting());
+    assertEquals(
+        "Hello World!\nSum of 2 and 3 is 5. Average is 2.5.\nSum of 1 to 10 is 55. Average is 22.5.\nSum of odd of 1 to 10 is 25. Sum of even is 30.",
+        classUnderTest.getGreeting());
   }
 }
