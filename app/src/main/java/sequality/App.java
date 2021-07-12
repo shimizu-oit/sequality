@@ -4,11 +4,11 @@
 package sequality;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
+  public String getGreeting() {
+    return "Hello World!\n2と3の合計は5です.平均値は2.5です.\n1から10の合計は55です.平均値は22.5です.\n1から10の奇数の合計は25です.偶数の合計は30です.";
+  }
 
-    public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
-    }
+  public static void main(String[] args) {
+    System.out.println(new App().getGreeting());
+  }
 }
